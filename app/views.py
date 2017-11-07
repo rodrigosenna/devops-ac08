@@ -71,7 +71,7 @@ def cadastro_vestibulares(request):
           context_instance = RequestContext(request,
           {
             'title':'Cadastro de vestibulares',
-            'vestibulares': Vestibular.objects.all(),
+            'vestibulares':Vestibular.objects.all(),
             'year':datetime.now().year,
           })
     )
