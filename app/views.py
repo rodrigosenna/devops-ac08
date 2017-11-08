@@ -85,6 +85,6 @@ def cadastro_candidatos(request):
           {
             'title':'Cadastro de Candidatos',
             'candidatos':Candidatos.objects.all(),
-            'year':datetime.now().year,
+            'year':datetime.now().year
           })
     )
