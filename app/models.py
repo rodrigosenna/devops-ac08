@@ -14,6 +14,4 @@ class Vestibular(models.Model):
     nome = models.CharField(max_length=200)
 
 class Candidatos(models.Model):
-    Pnome = models.CharField(max_length=100)
-    Mnome = models.CharField(max_length=100)
-    Unome = models.CharField(max_length=100)
+    NomeCompleto = models.CharField(max_length=100)
